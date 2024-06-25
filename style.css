@@ -1,0 +1,188 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #EFEFEF;
+}
+
+.page{
+  width: 750px;
+  margin: 0 auto;
+}
+
+.page::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 436px;
+  background-color: #535971;
+  z-index: -1;
+}
+
+header{
+  width: 417px;
+  margin-top: 140px;
+  margin-bottom: 58px;
+}
+
+header h1{
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+  color: #fff;
+}
+
+header p{
+  font-size: 20px;
+  color: #fff;
+
+  color: #FFF;
+
+  font-family: Poppins;
+  font-size: 20px;
+
+  margin-top: 18px;
+}
+
+
+form{
+  padding: 64px;
+  background: #FFF;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+fieldset{
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+fieldset legend{
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  width: 100%;
+  margin-bottom: 36px;
+
+}
+
+.input-wrap label{
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.col-2{
+  display: flex;
+  gap: 22px;
+  display: flex;
+}
+
+.col-2 .input-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+
+}
+
+.col-2 .input-wrap input{
+  width: 100%;
+}
+
+.input-wrap input{
+  height: 56px;
+  padding: 16px;
+  border-radius: 8px;
+
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background:#FAFAFC;
+}
+
+.input-wrap{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrap input{
+  width: 100%;
+}
+
+.input-wrap div span{
+  color: #C1BCCC;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.input-wrap div span:hover{
+  color: #6b6a6d;
+}
+
+/* .professor{
+  margin-top: 40px;
+} */
+
+strong{
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+
+.group-date-hour{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+.group-date{
+  width: 50%;
+}
+
+.group-hour{
+  display: flex;
+  width: 50%;
+  gap: 10px;
+}
+
+footer{
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+  height: 160px;
+  margin-bottom: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer button{
+  padding: 16px 40px;
+  color: #FFF;
+
+  font-family: Staatliches;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  border-radius: 20px;
+  background: #FF5374;
+  width: 608px;
+  border: 1px solid #943058;
+  cursor: pointer;
+}
